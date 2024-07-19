@@ -1,0 +1,178 @@
+[
+  {
+    "first_name": "John",
+    "last_name": "Doe",
+    "email": "john.doe@example.com",
+    "alternate_email": "j.doe@example.com",
+    "password": "$2b$12$KIX/WXAT1v0oI2UL4JrFVOtCGXyD5OeZbO1RkCZGzflNHGtv0UEYy",
+    "age": 25
+  },
+  {
+    "first_name": "Jane",
+    "last_name": "Smith",
+    "email": "jane.smith@example.com",
+    "alternate_email": "j.smith@example.com",
+    "password": "$2b$12$Hc/Wr6l5LbDe1JzkqYB65OM2yxlZVUnFBo1ENMZ5vOcE5cmAodn5u",
+    "age": 30
+  },
+  {
+    "first_name": "Alice",
+    "last_name": "Johnson",
+    "email": "alice.johnson@example.com",
+    "alternate_email": "a.johnson@example.com",
+    "password": "$2b$12$R2jV9vV6O71.d/ZZ1oBlIuWQjTz0TjT0d3i1ihUZnOX2n3HUHH7Ky",
+    "age": 22
+  },
+  {
+    "first_name": "Bob",
+    "last_name": "Williams",
+    "email": "bob.williams@example.com",
+    "alternate_email": "b.williams@example.com",
+    "password": "$2b$12$KTG.wT9b/eG3EbS/JFweR.vQvKOTgZZFQiFsz3QIEeQb3lOh/Jw3i",
+    "age": 28
+  },
+  {
+    "first_name": "Charlie",
+    "last_name": "Brown",
+    "email": "charlie.brown@example.com",
+    "alternate_email": "c.brown@example.com",
+    "password": "$2b$12$3wz7/hcxpCwPIVj0hXn8FO3w8yR5OtJwxeH6Ouht1EpMm7YChTpfO",
+    "age": 24
+  },
+  {
+    "first_name": "Emily",
+    "last_name": "Davis",
+    "email": "emily.davis@example.com",
+    "alternate_email": "e.davis@example.com",
+    "password": "$2b$12$Z1SOq8sDFQb6KcG91PmP6u5Xxulh1yZeK6n4/z9vKZ1RyYPh3bnLm",
+    "age": 27
+  },
+  {
+    "first_name": "David",
+    "last_name": "Miller",
+    "email": "david.miller@example.com",
+    "alternate_email": "d.miller@example.com",
+    "password": "$2b$12$zglUyA9pThSczJRAKTd8euIuWymVPxNTpS7NQ4nXEDREZ/.AfLzWe",
+    "age": 29
+  },
+  {
+    "first_name": "Sophia",
+    "last_name": "Martinez",
+    "email": "sophia.martinez@example.com",
+    "alternate_email": "s.martinez@example.com",
+    "password": "$2b$12$MWf7BoqM.R8Pjo/jzYX.N.sHMBZw0yMGD6ExJKzLwO7xsWyoBZb96",
+    "age": 21
+  },
+  {
+    "first_name": "Michael",
+    "last_name": "Garcia",
+    "email": "michael.garcia@example.com",
+    "alternate_email": "m.garcia@example.com",
+    "password": "$2b$12$M6ieYteCkD7uEZsF.dTwMeEuZJlXBEn8qjEHRg2HQGLyL5hEwB9k6",
+    "age": 26
+  },
+  {
+    "first_name": "Emma",
+    "last_name": "Martinez",
+    "email": "emma.martinez@example.com",
+    "alternate_email": "e.martinez@example.com",
+    "password": "$2b$12$9JgBVj4vZ.RP7Gp7V/1xnOK10UXKfAK8COoVqY5uOmxZMHZPqiB8G",
+    "age": 23
+  },
+  {
+    "first_name": "James",
+    "last_name": "Robinson",
+    "email": "james.robinson@example.com",
+    "alternate_email": "j.robinson@example.com",
+    "password": "$2b$12$xuUmnRU3ybTXpkmeVDMNQ.Og6Upf9D4tT1ATv5Gor3BgZRylsxN7C",
+    "age": 32
+  },
+  {
+    "first_name": "Olivia",
+    "last_name": "Clark",
+    "email": "olivia.clark@example.com",
+    "alternate_email": "o.clark@example.com",
+    "password": "$2b$12$axw5mRnVEeXXEk5k9vG8eeYVmHkJ27bHXXSBVxni1cX5dQbU4n9FC",
+    "age": 20
+  },
+  {
+    "first_name": "Daniel",
+    "last_name": "Rodriguez",
+    "email": "daniel.rodriguez@example.com",
+    "alternate_email": "d.rodriguez@example.com",
+    "password": "$2b$12$z7RXgkWTRZXWRsRJc5VWuORRkTkMGlEC5GOdGLTD1f6YyU89Ml6Cm",
+    "age": 28
+  },
+  {
+    "first_name": "Ava",
+    "last_name": "Lewis",
+    "email": "ava.lewis@example.com",
+    "alternate_email": "a.lewis@example.com",
+    "password": "$2b$12$dTE6F6CLiVYMR8j2gP5tPOdEfC9iOftmF/XM8H1VpF9pNDGocJqD2",
+    "age": 22
+  },
+  {
+    "first_name": "William",
+    "last_name": "Lee",
+    "email": "william.lee@example.com",
+    "alternate_email": "w.lee@example.com",
+    "password": "$2b$12$ovcPavhrMLcm7YRm9f11GuqlX3XVsDzn5dWyUvZLs1vKrW6sY93vK",
+    "age": 27
+  },
+  {
+    "first_name": "Isabella",
+    "last_name": "Walker",
+    "email": "isabella.walker@example.com",
+    "alternate_email": "i.walker@example.com",
+    "password": "$2b$12$96DzFTHA9hggpu3w1v39.OuPAfzzT6NeB5Xv8qBf4kgTDNlI3oMFG",
+    "age": 24
+  },
+  {
+    "first_name": "Alexander",
+    "last_name": "Hall",
+    "email": "alexander.hall@example.com",
+    "alternate_email": "a.hall@example.com",
+    "password": "$2b$12$aZ4gAFAOMyQ.xN.n2hE9auzyMFJHqpaB2twvVZoNnFC7wO4UlQxqK",
+    "age": 31
+  },
+  {
+    "first_name": "Mia",
+    "last_name": "Allen",
+    "email": "mia.allen@example.com",
+    "alternate_email": "m.allen@example.com",
+    "password": "$2b$12$1yx8mfhkGQ/dHDK02SCCouuJr36OPbwqX8IqLbU1ZYdFusQZoGzUO",
+    "age": 26
+  },
+  {
+    "first_name": "Ethan",
+    "last_name": "Young",
+    "email": "ethan.young@example.com",
+    "alternate_email": "e.young@example.com",
+    "password": "$2b$12$F/lhf.zZ8hMkkw/BuT2uRu/Z9jMr9zFgf6jPiHzL2qXhIRJ8uICfu",
+    "age": 30
+  },
+  {
+    "first_name": "Amelia",
+    "last_name": "King",
+    "email": "amelia.king@example.com",
+    "alternate_email": "a.king@example.com",
+    "password": "$2b$12$xxgrlAyW2bAM8k1f4/qzeOymn3uRz48O7.FS4jBapD0JHi66Zxg1u",
+    "age": 22
+  },
+  {
+    "first_name": "Midhun",
+    "last_name": "A Darvin",
+    "age": 21,
+    "email": "midhunadarvin@gmail.com",
+    "alternate_email": "midhunadarvin@gmail.com",
+    "password": "asdf"
+  },
+  {
+    "first_name": "Midhun",
+    "last_name": "A Darvin",
+    "age": 34,
+    "email": "midhunadarvin@gmail.com",
+    "alternate_email": "midhunadarvin@gmail.com",
+    "password": "jgjg"
+  }
+]
