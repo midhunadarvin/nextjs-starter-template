@@ -1,10 +1,5 @@
-import HeroSection from '@/containers/home-page/hero-section';
-import DefaultLayout from '@/containers/layout/default-layout';
+import { redirect } from 'next/navigation';
 
-export default function Home() {
-  return (
-    <DefaultLayout>
-      <HeroSection />
-    </DefaultLayout>
-  );
+export default function App() {
+  return redirect('/home');
 }
