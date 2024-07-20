@@ -1,21 +1,23 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 'use client';
 
-import { usePathname, useSearchParams } from 'next/navigation';
-import { useRouter } from 'next/navigation';
+import { useModalStore } from '@/store/useModalStore';
 
 export function useModal() {
-  const searchParams = useSearchParams();
-  const modal = searchParams.get('modal');
-  const pathname = usePathname();
-  const router = useRouter();
+  const { showModal, setModalState, title, data: modalData, modalContent } = useModalStore();
 
   const closeModal = () => {
-    router.replace(pathname);
+    setModalState(undefined);
   };
 
-  const openModal = () => {
-    if (!modal) router.replace(pathname + '?modal=true');
+  const openModal = (title: string, content: React.ReactNode, data?: any) => {
+    setModalState({
+      showModal: true,
+      title,
+      data,
+      modalContent: content,
+    });
   };
 
-  return { closeModal, openModal };
+  return { closeModal, openModal, showModal, title, modalData, modalContent };
 }

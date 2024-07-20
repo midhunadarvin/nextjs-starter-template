@@ -158,21 +158,5 @@
     "alternate_email": "a.king@example.com",
     "password": "$2b$12$xxgrlAyW2bAM8k1f4/qzeOymn3uRz48O7.FS4jBapD0JHi66Zxg1u",
     "age": 22
-  },
-  {
-    "first_name": "Midhun",
-    "last_name": "A Darvin",
-    "age": 21,
-    "email": "midhunadarvin@gmail.com",
-    "alternate_email": "midhunadarvin@gmail.com",
-    "password": "asdf"
-  },
-  {
-    "first_name": "Midhun",
-    "last_name": "A Darvin",
-    "age": 34,
-    "email": "midhunadarvin@gmail.com",
-    "alternate_email": "midhunadarvin@gmail.com",
-    "password": "jgjg"
   }
 ]
