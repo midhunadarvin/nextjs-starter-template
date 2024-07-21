@@ -1,11 +1,12 @@
 'use server';
 import bcrypt from 'bcrypt';
 import { promises as fs } from 'fs';
+import path from 'path';
 
 import { User, UserSchema } from '@/types/User';
 
 export async function getUsers() {
-  const file = await fs.readFile(process.cwd() + '/public/data/users.json', 'utf8');
+  const file = await fs.readFile(path.join(process.cwd(), '/public/data/users.json'), 'utf8');
   const resp = JSON.parse(JSON.stringify(file));
 
   return resp;
@@ -26,12 +27,12 @@ export async function createUser(user: User) {
     password: await bcrypt.hash(user.password, 10), // hash the password
   };
 
-  const file = await fs.readFile(process.cwd() + '/public/data/users.json', 'utf8');
+  const file = await fs.readFile(path.join(process.cwd(), '/public/data/users.json'), 'utf8');
   const users: User[] = JSON.parse(file);
   const data = [...users];
   data.push(newUser);
 
-  await fs.writeFile(process.cwd() + '/public/data/users.json', JSON.stringify(data), {
+  await fs.writeFile(path.join(process.cwd(), '/public/data/users.json'), JSON.stringify(data), {
     // flag: 'a' // 'a' flag for append
   });
 
