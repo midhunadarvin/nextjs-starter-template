@@ -8,9 +8,9 @@ import { User, UserSchema } from '@/types/User';
 const env = process.env.NODE_ENV;
 let usersFilePath: string;
 if (env == 'development') {
-  usersFilePath = path.join(process.cwd(), '/src/data/users.json');
+  usersFilePath = path.join(process.cwd(), 'src/data/users.json');
 } else if (env == 'production') {
-  usersFilePath = path.join(process.cwd(), '/src/data/users.json');
+  usersFilePath = path.join(process.cwd(), 'src/data/users.json');
 }
 
 export async function getUsers() {
