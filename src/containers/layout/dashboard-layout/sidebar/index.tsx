@@ -9,7 +9,7 @@ export function Sidebar() {
     >
       <div className='h-full overflow-y-auto bg-gray-50 px-3 py-4 dark:bg-gray-800'>
         <ul className='space-y-2 font-medium'>
-          <li>
+          {/* <li>
             <Link
               href='/dashboard'
               className='group flex items-center rounded-lg p-2 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700'
@@ -26,7 +26,7 @@ export function Sidebar() {
               </svg>
               <span className='ms-3'>Dashboard</span>
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               href='/users'

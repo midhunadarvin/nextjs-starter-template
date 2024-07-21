@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 import ReactQueryProvider from '@/utils/providers/ReactQueryProvider';
 
-import { Sidebar } from '@/components/sidebar';
+import { Sidebar } from './sidebar';
 
 function DashboardLayout({ children }: { children: React.ReactNode }) {
   return (

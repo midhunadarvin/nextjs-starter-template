@@ -72,7 +72,7 @@ export default function Hero() {
         Writer Content Creator Influencer
       </motion.div>
       <div className='imageContainer'>
-        <img src='/images/hero.png' alt='' />
+        <img src='/images/hero2.png' alt='' />
       </div>
     </div>
   );
