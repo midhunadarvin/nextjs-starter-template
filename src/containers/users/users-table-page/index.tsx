@@ -19,7 +19,7 @@ export function UsersTablePage() {
   const queryClient = useQueryClient();
   const { isPending, error, data } = useQuery<User[]>({
     queryKey: ['users'],
-    queryFn: async () => JSON.parse(await getUsers()),
+    queryFn: async () => await getUsers(),
   });
 
   if (isPending) return 'Loading...';
