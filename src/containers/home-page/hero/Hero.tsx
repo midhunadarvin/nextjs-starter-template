@@ -49,8 +49,12 @@ export default function Hero() {
           initial='initial'
           animate='animate'
         >
-          <motion.h2 variants={textVariants}>MIDHUN DARVIN</motion.h2>
-          <motion.h1 variants={textVariants}>Web developer and UI designer</motion.h1>
+          <motion.h2 className='font-dmsans font-bold' variants={textVariants}>
+            MIDHUN DARVIN
+          </motion.h2>
+          <motion.h1 className='font-dmsans text-[88px] font-bold' variants={textVariants}>
+            Web developer and UI designer
+          </motion.h1>
           <motion.div variants={textVariants} className='buttons'>
             <motion.button variants={textVariants}>See the latest works</motion.button>
             <motion.button variants={textVariants}>Contact me</motion.button>
@@ -72,7 +76,7 @@ export default function Hero() {
         Writer Content Creator Influencer
       </motion.div>
       <div className='imageContainer'>
-        <img src='/images/hero2.png' alt='' />
+        <img src='/images/hero.png' alt='' />
       </div>
     </div>
   );

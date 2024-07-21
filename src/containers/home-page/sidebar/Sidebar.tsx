@@ -2,8 +2,6 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 
-import './sidebar.scss';
-
 import Links from './links/Links';
 import ToggleButton from './toggle-button/ToggleButton';
 
@@ -29,8 +27,15 @@ const variants = {
 export default function Sidebar() {
   const [open, setOpen] = useState(false);
   return (
-    <motion.div className='sidebar' initial='closed' animate={open ? 'open' : 'closed'}>
-      <motion.div variants={variants} className='bg'>
+    <motion.div
+      className='sidebar flex flex-col items-center justify-center bg-white text-black'
+      initial='closed'
+      animate={open ? 'open' : 'closed'}
+    >
+      <motion.div
+        variants={variants}
+        className='bg fixed bottom-0 left-0 top-0 z-[4] w-[400px] bg-white'
+      >
         <Links />
       </motion.div>
       <ToggleButton setOpen={setOpen} />

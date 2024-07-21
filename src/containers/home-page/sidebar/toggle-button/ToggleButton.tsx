@@ -6,8 +6,11 @@ export default function ToggleButton({
   setOpen: (fn: (val: boolean) => boolean) => void;
 }) {
   return (
-    <button className='flex items-center justify-center' onClick={() => setOpen((prev) => !prev)}>
-      <svg width='23' height='23' viewBox='0 0 23 23'>
+    <button
+      className='fixed left-[25px] top-[25px] z-[4] flex h-[50px] w-[50px] cursor-pointer items-center justify-center rounded-[50%] border-0 border-none bg-transparent'
+      onClick={() => setOpen((prev) => !prev)}
+    >
+      <svg className='mt-[5px]' width='23' height='23' viewBox='0 0 23 23'>
         <motion.path
           strokeWidth='3'
           stroke='black'

@@ -29,11 +29,15 @@ const itemVariants = {
 export default function Links() {
   const items = ['Homepage', 'Services', 'Portfolio', 'Contact', 'About'];
   return (
-    <motion.div className='links' variants={variants}>
+    <motion.div
+      className='links absolute flex h-full w-full flex-col items-center justify-center gap-5'
+      variants={variants}
+    >
       {items.map((item) => (
         <motion.a
           key={item}
           href={`#${item}`}
+          className='text-[40px]'
           variants={itemVariants}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
