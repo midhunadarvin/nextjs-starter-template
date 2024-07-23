@@ -14,7 +14,6 @@ const variants = {
     },
   },
 };
-
 const itemVariants = {
   open: {
     y: 0,
@@ -25,26 +24,42 @@ const itemVariants = {
     opacity: 0,
   },
 };
-
 export default function Links() {
   const items = ['Homepage', 'Services', 'Portfolio', 'Contact', 'About'];
   return (
     <motion.div
-      className='links absolute flex h-full w-full flex-col items-center justify-center gap-5'
+      className='links absolute flex h-full w-full flex-col items-center justify-center font-six-caps text-[calc(1rem+8vw)] text-white'
       variants={variants}
     >
       {items.map((item) => (
         <motion.a
-          key={item}
           href={`#${item}`}
-          className='text-[40px]'
+          key={item}
+          className='button-text leading-[calc(1rem+8vw)] text-[#cdcdcd] opacity-[0.3] hover:text-white hover:opacity-100'
           variants={itemVariants}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
         >
-          {item}
+          <span data-hover={item}>{item}</span>
         </motion.a>
       ))}
+      {/* {items.map((item) => (
+        <motion.a key={item} href={`#${item}`} variants={itemVariants}>
+          <div className='button-text leading-[calc(1rem+8vw)] text-[#cdcdcd] opacity-[0.3] hover:text-white hover:opacity-100'>
+            <span data-hover={item}>{item}</span>
+          </div>
+        </motion.a>
+        // <motion.a
+        //   key={item}
+        //   href={`#${item}`}
+        //   className='font-six-caps text-[calc(1rem+8vw)] text-white'
+        //   variants={itemVariants}
+        //   whileHover={{ scale: 1.1 }}
+        //   whileTap={{ scale: 0.95 }}
+        // >
+        //   {item}
+        // </motion.a>
+      ))} */}
     </motion.div>
   );
 }

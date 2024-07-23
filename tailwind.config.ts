@@ -10,7 +10,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        dmsans: ['var(--font-dm-sans)'],
+        poppins: ['var(--font-poppins)'],
+        'six-caps': ['var(--font-six-caps)'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
